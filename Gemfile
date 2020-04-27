@@ -50,10 +50,3 @@ group :test do
   gem 'poltergeist'
 end
 
-group :demo_test_run do
-  gem 'capybara'
-  gem 'poltergeist'
-  gem 'rmagick'
-  gem 'rspec'
-  gem 'spectre_client', git: 'https://github.com/wearefriday/spectre_client.git'
-end
